@@ -15,7 +15,7 @@ lazy val root = project
     publishTo := sonatypePublishToBundle.value,
 
     // Dependencies
-    libraryDependencies += ("org.scala-js" %%% "scalajs-dom" % "1.2.0")
+    libraryDependencies += ("org.scala-js" %%% "scalajs-dom" % "2.4.0")
       .cross(CrossVersion.for3Use2_13)
   )
 

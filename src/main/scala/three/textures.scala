@@ -2,7 +2,7 @@ package typings.three.textures
 
 import scala.scalajs.js
 import js.annotation.*
-import org.scalajs.dom.*
+import org.scalajs.dom.{ImageData}
 import org.scalajs.dom.raw.{HTMLElement, HTMLDocument, HTMLMediaElement, HTMLVideoElement, HTMLCanvasElement, HTMLImageElement}
 import org.scalajs.dom.raw.{WebGLShader, WebGLFramebuffer}
 import org.scalajs.dom.experimental.gamepad.*
