@@ -150,7 +150,7 @@ class Raycaster extends js.Object:
 	var layers: Layers = js.native
 	var params: RaycasterParameters = js.native
 	def set(origin: Vector3, direction: Vector3): Unit = js.native
-	def setFromCamera(coords: AnonObject17, camera: Camera): Unit = js.native
+	def setFromCamera(coords: Vector2, camera: Camera): Unit = js.native
 	def intersectObject(`object`: Object3D, recursive: js.UndefOr[Boolean] = js.undefined, optionalTarget: js.UndefOr[js.Array[Intersection]] = js.undefined): js.Array[Intersection] = js.native
 	def intersectObjects(objects: js.Array[Object3D], recursive: js.UndefOr[Boolean] = js.undefined, optionalTarget: js.UndefOr[js.Array[Intersection]] = js.undefined): js.Array[Intersection] = js.native
 
